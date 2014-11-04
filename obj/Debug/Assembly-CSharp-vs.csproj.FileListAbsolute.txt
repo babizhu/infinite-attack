@@ -1,0 +1,15 @@
+D:\Documents\infinite attack\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Documents\infinite attack\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Documents\infinite attack\Temp\bin\Debug\Assembly-CSharp.dll.CodeAnalysisLog.xml
+D:\Documents\infinite attack\Temp\bin\Debug\Assembly-CSharp.dll.lastcodeanalysissucceeded
+D:\Documents\infinite attack\Temp\bin\Debug\UnityEditor.dll
+D:\Documents\infinite attack\Temp\bin\Debug\UnityEngine.dll
+D:\Documents\infinite attack\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Documents\infinite attack\Temp\bin\Debug\Mono.Cecil.dll
+D:\Documents\infinite attack\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Documents\infinite attack\Temp\bin\Debug\Unity.DataContract.dll
+D:\Documents\infinite attack\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Documents\infinite attack\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Documents\infinite attack\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\Documents\infinite attack\obj\Debug\Assembly-CSharp.dll
+D:\Documents\infinite attack\obj\Debug\Assembly-CSharp.pdb
