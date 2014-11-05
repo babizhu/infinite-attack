@@ -12,4 +12,8 @@ public interface IClickEvent{
      * 取消选择时候执行
      */ 
     void unClick();
+    /**
+     * 是否反选上一个被选择项目，比如点选grid就不应该反选上一个点击对象，而点击武器模板就应该要反选择上一个点击对象
+     */
+    bool isUnchoosePrevObject(GameObject prevChoose);
 }

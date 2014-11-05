@@ -22,4 +22,8 @@ public class Shovel : MonoBehaviour,IClickEvent {
     {
         print(name + " unClick");
     }
+    public bool isUnchoosePrevObject(GameObject prevChoose)
+    {
+        return true;
+    }
 }

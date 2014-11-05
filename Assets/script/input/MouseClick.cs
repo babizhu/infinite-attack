@@ -39,12 +39,13 @@ public class MouseClick : MonoBehaviour
     void Start()
     {
 
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonUp(0))
         {
             //你问我为什么会有vector3？因为ScreenToWorldPoint没有返回v2的重载！！！
             //当然，不同于3D，2D不会用ray，所以这里直接ScreenToWorldPoint（屏幕坐标转世界坐标），发出地为鼠标位置
@@ -61,16 +62,26 @@ public class MouseClick : MonoBehaviour
                 //如果碰到些什么，嘿嘿···
                 print(hit.transform.name);
 
-                bool isChoose = hit.transform.gameObject.GetComponent<IClickEvent>().click(prevChoose);
+                IClickEvent clickEvent = hit.transform.gameObject.GetComponent<IClickEvent>();
+                if( clickEvent != null ){
+                    //if (!hit.transform.CompareTag("grid") && !hit.transform.CompareTag("weapon") )//
+                    //{
+                    //    unChoose();
+                    //}
+                    if (clickEvent.isUnchoosePrevObject(prevChoose))
+                    {
+                        unChoose();
+                    }
+
+                   // bool isChoose = ;
                
-                if (isChoose)
-                {
-                    prevChoose = hit.transform.gameObject;
+                    if (clickEvent.click(prevChoose))
+                    {
+                        prevChoose = hit.transform.gameObject;
+                    }
+                    
                 }
-                //if (hit.transform.CompareTag("weapon"))
-                //{
-                //    unChoose();
-                //}
+                    
             }
             else
             {
@@ -82,6 +93,12 @@ public class MouseClick : MonoBehaviour
 
             print("prevChoose=" + prevChoose);
         }
+    }
+    void OnMouseDown()
+    {
+        
+        print("OnMouseDown");
+      //  Application.LoadLevel("SomeLevel");
     }
 
     private void unChoose()

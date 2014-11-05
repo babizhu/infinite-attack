@@ -44,4 +44,9 @@ public class IceGun : MonoBehaviour,IClickEvent,IWeapon{
 
         print(name + " unClick");
     }
+
+    public bool isUnchoosePrevObject(GameObject prevChoose)
+    {
+        return false;
+    }
 }
