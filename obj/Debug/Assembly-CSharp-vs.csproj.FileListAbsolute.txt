@@ -1,7 +1,5 @@
 D:\Documents\infinite attack\Temp\bin\Debug\Assembly-CSharp.dll
 D:\Documents\infinite attack\Temp\bin\Debug\Assembly-CSharp.pdb
-D:\Documents\infinite attack\Temp\bin\Debug\Assembly-CSharp.dll.CodeAnalysisLog.xml
-D:\Documents\infinite attack\Temp\bin\Debug\Assembly-CSharp.dll.lastcodeanalysissucceeded
 D:\Documents\infinite attack\Temp\bin\Debug\UnityEditor.dll
 D:\Documents\infinite attack\Temp\bin\Debug\UnityEngine.dll
 D:\Documents\infinite attack\Temp\bin\Debug\UnityEngine.UI.dll
