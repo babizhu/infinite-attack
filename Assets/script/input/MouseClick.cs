@@ -60,7 +60,7 @@ public class MouseClick : MonoBehaviour
             if (hit.collider != null)
             {
                 //如果碰到些什么，嘿嘿···
-                print(hit.transform.name);
+                print(hit.transform.name + " width is " + hit.transform.localScale.x);
 
                 IClickEvent clickEvent = hit.transform.gameObject.GetComponent<IClickEvent>();
                 if( clickEvent != null ){

@@ -9,7 +9,7 @@ public class WeaponTempletList : MonoBehaviour {
     public float speed = 10;
     public float highLimit = -0.1139f;
     public float lowLimit = -2;
-    public Vector3 target;
+    private Vector3 target;
    // private int direction = -1;
    // private Renderer renderer;
 	// Use this for initialization
@@ -44,7 +44,7 @@ public class WeaponTempletList : MonoBehaviour {
     }
 
     /**
-     * 到达目的地后反向运动。  
+     * 到达目的地后反向运动
      */
     private void toggle()
     {
